@@ -22,13 +22,13 @@ server_scripts {
     'Config/FuS_Config.lua',
     'Config/FuS_Language.lua',
     'Config/FuS_Webhook.lua',
-    'Server/Server.lua'
+    'Server/*.lua'
 }
 
 client_scripts {
     'Config/FuS_Config.lua',
     'Config/FuS_Language.lua',
-    'Client/Client.lua'
+    'Client/*.lua'
 }
 
 dependencies {
